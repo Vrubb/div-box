@@ -17,7 +17,7 @@ div::after {
   width: 100px;
   height: 100px;
   position: relative;
-  background-color: skyblue;
+  background-color: tomato;
   animation: div-box 2s linear infinite;
 }
 
