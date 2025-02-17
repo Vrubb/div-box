@@ -3,6 +3,10 @@
   to    {left:200px; top:0px; transform: rotate(90deg)}
 }
 
+@keyframes menu-button {
+  from {width: 0px;}
+  to {width: 110px;}
+
 div::after {
   content: "";
   background-color: brown;
@@ -12,6 +16,10 @@ div::after {
   top: 0;
   left: 0;
 }
+
+div:hover:after {
+    width: 110px;
+  }
 
 .div1, .div2, .div3, .div4, .div5 {
   width: 100px;
