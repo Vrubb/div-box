@@ -16,6 +16,9 @@
   position: relative;
   text-align: center;
   z-index: 1;
+  text-decpration: none;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .menu-button::after {
@@ -27,12 +30,6 @@
   top: 0;
   left: 0;
   z-index: -1;
-}
-
-.menu-button a {
-    text-decpration: none;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .div:hover:after {
