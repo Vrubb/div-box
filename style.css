@@ -18,7 +18,7 @@ menu-button {
   z-index: 1;
 }
 
-div::after {
+menu-button::after {
   content: "";
   background-color: brown;
   width: 10px;
