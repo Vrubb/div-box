@@ -16,6 +16,7 @@ menu-button {
   position: relative;
   text-align: center;
   z-index: 1;
+}
 
 div::after {
   content: "";
