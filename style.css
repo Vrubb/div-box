@@ -29,7 +29,7 @@ div::after {
   z-index: -1;
 }
 
-div a {
+menu-button a {
     text-decpration: none;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
